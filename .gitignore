@@ -10,3 +10,6 @@
 # IDE - VSCode
 .vscode/*
 .history/*
+
+# misc
+.DS_Store

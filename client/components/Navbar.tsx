@@ -42,8 +42,8 @@ const Navbar = () => {
             flex flex-col justify-start items-end rounded-md blue-glassmorphism text-white"
           >
             <li className="text-xl w-full my-2">
-              <div className="h-[44px] w-[28px]">
-                <FontAwesomeIcon icon={faTimes} size="sm" onClick={() => setToggleMenu(false)}/>
+              <div className="h-[44px] w-[28px] flex justify-center">
+                <FontAwesomeIcon icon={faTimes} size="lg" onClick={() => setToggleMenu(false)}/>
               </div>
             </li>
             {['Market', 'Exchange', 'Tutorials', 'Wallets'].map(
